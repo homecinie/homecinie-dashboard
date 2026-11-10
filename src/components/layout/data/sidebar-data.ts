@@ -2,6 +2,7 @@ import {
   Construction,
   LayoutDashboard,
   Monitor,
+  Clapperboard,
   Bug,
   ListTodo,
   FileX,
@@ -56,6 +57,11 @@ export const sidebarData: SidebarData = {
           title: 'Dashboard',
           url: '/',
           icon: LayoutDashboard,
+        },
+        {
+          title: 'Homecinie Admin',
+          url: '/homecinie-admin',
+          icon: Clapperboard,
         },
         {
           title: 'Tasks',
